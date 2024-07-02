@@ -1,0 +1,755 @@
+2021-05-13 13:57:33,003    2580     INFO test_runner.py(156) - 预计并发线程数：1
+2021-05-13 13:57:33,003    5056     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-05-13 13:57:33,019    5056     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-05-13 13:57:33,034    5056     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-05-13 13:57:33,066    5056     INFO result.py(91) - 耗时： 0.015625476837158203
+2021-05-13 13:57:33,097    5056     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-05-13 13:57:33,097    5056     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-05-13 13:57:33,097    5056     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-05-13 13:57:33,097    5056     INFO result.py(91) - 耗时： 0.0
+2021-05-13 13:57:33,097    5056     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-05-13 13:57:33,097    5056     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-05-13 13:57:33,097    5056     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-05-13 13:57:33,128    5056     INFO result.py(91) - 耗时： 0.0
+2021-05-13 13:57:33,144    5056     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-05-13 13:57:33,144    5056     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-05-13 13:57:33,144    5056     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-05-13 13:57:33,144    5056     INFO result.py(91) - 耗时： 0.0
+2021-05-13 13:57:33,144    2580     INFO test_runner.py(193) - 
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+
+2021-05-13 13:57:33,144    2580    ERROR test_runner.py(195) - 
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-05-13 13:57:33,144    2580     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.656413
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-05-13 14:02:50,450    1520     INFO test_runner.py(156) - 预计并发线程数：1
+2021-05-13 14:02:50,450    6908     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-05-13 14:02:50,450    6908     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-05-13 14:02:50,465    6908     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-05-13 14:02:50,497    6908     INFO result.py(91) - 耗时： 0.015533924102783203
+2021-05-13 14:02:50,528    6908     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-05-13 14:02:50,606    6908     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-05-13 14:02:50,637    6908     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-05-13 14:02:50,653    6908     INFO result.py(91) - 耗时： 0.09375429153442383
+2021-05-13 14:02:50,653    6908     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-05-13 14:02:50,653    6908     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-05-13 14:02:50,653    6908     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-05-13 14:02:50,653    6908     INFO result.py(91) - 耗时： 0.0
+2021-05-13 14:02:50,653    6908     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-05-13 14:02:50,653    6908     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-05-13 14:02:50,653    6908     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-05-13 14:02:50,653    6908     INFO result.py(91) - 耗时： 0.0
+2021-05-13 14:02:50,653    1520     INFO test_runner.py(193) - 
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+
+2021-05-13 14:02:50,653    1520    ERROR test_runner.py(195) - 
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-05-13 14:02:50,653    1520     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.718778
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-05-13 14:06:09,917    5888     INFO test_runner.py(156) - 预计并发线程数：1
+2021-05-13 14:06:09,917    6232     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-05-13 14:06:09,932    6232     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-05-13 14:06:09,963    6232     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-05-13 14:06:09,979    6232     INFO result.py(91) - 耗时： 0.04663372039794922
+2021-05-13 14:06:09,979    6232     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-05-13 14:06:09,979    6232     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-05-13 14:06:10,010    6232     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-05-13 14:06:10,026    6232     INFO result.py(91) - 耗时： 0.031239986419677734
+2021-05-13 14:06:10,026    6232     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-05-13 14:06:10,026    6232     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-05-13 14:06:10,026    6232     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-05-13 14:06:10,026    6232     INFO result.py(91) - 耗时： 0.0
+2021-05-13 14:06:10,026    6232     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-05-13 14:06:10,026    6232     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-05-13 14:06:10,026    6232     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-05-13 14:06:10,026    6232     INFO result.py(91) - 耗时： 0.0
+2021-05-13 14:06:10,026    5888     INFO test_runner.py(193) - 
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+
+2021-05-13 14:06:10,026    5888    ERROR test_runner.py(195) - 
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-05-13 14:06:10,026    5888     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.625161
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-05-13 14:06:22,511    4968     INFO test_runner.py(156) - 预计并发线程数：1
+2021-05-13 14:06:22,511    3236     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-05-13 14:06:22,511    3236     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-05-13 14:06:22,511    3236     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-05-13 14:06:22,526    3236     INFO result.py(91) - 耗时： 0.0
+2021-05-13 14:06:22,558    3236     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-05-13 14:06:22,558    3236     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-05-13 14:06:22,573    3236     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-05-13 14:06:22,605    3236     INFO result.py(91) - 耗时： 0.015769004821777344
+2021-05-13 14:06:22,620    3236     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-05-13 14:06:22,620    3236     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-05-13 14:06:22,620    3236     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-05-13 14:06:22,620    3236     INFO result.py(91) - 耗时： 0.0
+2021-05-13 14:06:22,636    3236     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-05-13 14:06:22,636    3236     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-05-13 14:06:22,636    3236     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-05-13 14:06:22,636    3236     INFO result.py(91) - 耗时： 0.0
+2021-05-13 14:06:22,636    4968     INFO test_runner.py(193) - 
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+
+2021-05-13 14:06:22,636    4968    ERROR test_runner.py(195) - 
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-05-13 14:06:22,636    4968     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.640788
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-05-13 14:59:35,373    6628     INFO test_runner.py(156) - 预计并发线程数：1
+2021-05-13 14:59:35,436    6304     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-05-13 14:59:35,467    6304     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-05-13 14:59:35,483    6304     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-05-13 14:59:35,514    6304     INFO result.py(91) - 耗时： 0.03125500679016113
+2021-05-13 14:59:35,530    6304     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-05-13 14:59:35,530    6304     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-05-13 14:59:35,530    6304     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-05-13 14:59:35,530    6304     INFO result.py(91) - 耗时： 0.0
+2021-05-13 14:59:35,530    6304     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-05-13 14:59:35,530    6304     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-05-13 14:59:35,545    6304     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-05-13 14:59:35,545    6304     INFO result.py(91) - 耗时： 0.015484094619750977
+2021-05-13 14:59:35,545    6304     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-05-13 14:59:35,545    6304     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-05-13 14:59:35,545    6304     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-05-13 14:59:35,545    6304     INFO result.py(91) - 耗时： 0.0
+2021-05-13 14:59:35,545    6628     INFO test_runner.py(193) - 
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+
+2021-05-13 14:59:35,545    6628    ERROR test_runner.py(195) - 
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-05-13 14:59:35,545    6628     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:01.078173
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-05-13 15:12:59,567    2596     INFO test_runner.py(156) - 预计并发线程数：1
+2021-05-13 15:12:59,567    4760     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-05-13 15:12:59,567    4760     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-05-13 15:12:59,567    4760     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-05-13 15:12:59,598    4760     INFO result.py(91) - 耗时： 0.0
+2021-05-13 15:12:59,629    4760     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-05-13 15:12:59,629    4760     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-05-13 15:12:59,629    4760     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-05-13 15:12:59,645    4760     INFO result.py(91) - 耗时： 0.0
+2021-05-13 15:12:59,676    4760     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-05-13 15:12:59,739    4760     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-05-13 15:12:59,739    4760     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-05-13 15:12:59,739    4760     INFO result.py(91) - 耗时： 0.06250286102294922
+2021-05-13 15:12:59,739    4760     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-05-13 15:12:59,739    4760     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-05-13 15:12:59,739    4760     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-05-13 15:12:59,739    4760     INFO result.py(91) - 耗时： 0.0
+2021-05-13 15:12:59,739    2596     INFO test_runner.py(193) - 
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+
+2021-05-13 15:12:59,739    2596    ERROR test_runner.py(195) - 
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-05-13 15:12:59,739    2596     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.750034
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-05-14 18:43:07,750    2868     INFO test_runner.py(156) - 预计并发线程数：1
+2021-05-14 18:43:07,756    4872     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-05-14 18:43:07,757    4872     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-05-14 18:43:07,758    4872     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-05-14 18:43:07,768    4872     INFO result.py(91) - 耗时： 0.0010030269622802734
+2021-05-14 18:43:07,778    4872     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-05-14 18:43:07,784    4872     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-05-14 18:43:07,794    4872     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-05-14 18:43:07,804    4872     INFO result.py(91) - 耗时： 0.015021085739135742
+2021-05-14 18:43:07,814    4872     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-05-14 18:43:07,815    4872     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-05-14 18:43:07,825    4872     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-05-14 18:43:07,835    4872     INFO result.py(91) - 耗时： 0.010013103485107422
+2021-05-14 18:43:07,845    4872     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-05-14 18:43:07,846    4872     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-05-14 18:43:07,847    4872     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-05-14 18:43:07,847    4872     INFO result.py(91) - 耗时： 0.0010001659393310547
+2021-05-14 18:43:07,848    2868     INFO test_runner.py(193) - 
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+
+2021-05-14 18:43:07,848    2868    ERROR test_runner.py(195) - 
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-05-14 18:43:07,851    2868     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:01.005478
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-05-26 17:39:45,225    6276     INFO test_runner.py(156) - 预计并发线程数：1
+2021-05-26 17:39:45,280    4624     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-05-26 17:39:45,287    4624     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-05-26 17:39:45,297    4624     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-05-26 17:39:45,307    4624     INFO result.py(92) - 耗时： 0.0160219669342041
+2021-05-26 17:39:45,317    4624     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-05-26 17:39:45,322    4624     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-05-26 17:39:45,328    4624     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-05-26 17:39:45,338    4624     INFO result.py(92) - 耗时： 0.010012149810791016
+2021-05-26 17:39:45,348    4624     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-05-26 17:39:45,349    4624     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-05-26 17:39:45,360    4624     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-05-26 17:39:45,370    4624     INFO result.py(92) - 耗时： 0.011013269424438477
+2021-05-26 17:39:45,380    4624     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-05-26 17:39:45,381    4624     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-05-26 17:39:45,382    4624     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-05-26 17:39:45,382    4624     INFO result.py(92) - 耗时： 0.0
+2021-05-26 17:39:45,383    6276     INFO test_runner.py(193) - 
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+
+2021-05-26 17:39:45,384    6276    ERROR test_runner.py(195) - 
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-05-26 17:39:45,396    6276     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.788157
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-05-26 17:43:57,387    5228     INFO test_runner.py(156) - 预计并发线程数：1
+2021-05-26 17:43:57,392    6372     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-05-26 17:43:57,398    6372     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-05-26 17:43:57,408    6372     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-05-26 17:43:57,418    6372     INFO result.py(92) - 耗时： 0.015022039413452148
+2021-05-26 17:43:57,428    6372     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-05-26 17:43:57,429    6372     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-05-26 17:43:57,435    6372     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-05-26 17:43:57,445    6372     INFO result.py(92) - 耗时： 0.007010936737060547
+2021-05-26 17:43:57,455    6372     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-05-26 17:43:57,481    6372     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-05-26 17:43:57,491    6372     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-05-26 17:43:57,501    6372     INFO result.py(92) - 耗时： 0.0350499153137207
+2021-05-26 17:43:57,511    6372     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-05-26 17:43:57,512    6372     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-05-26 17:43:57,512    6372     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-05-26 17:43:57,513    6372     INFO result.py(92) - 耗时： 0.001003265380859375
+2021-05-26 17:43:57,513    5228     INFO test_runner.py(193) - 
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+
+2021-05-26 17:43:57,514    5228    ERROR test_runner.py(195) - 
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-05-26 17:43:57,517    5228     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.516758
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-07-06 10:36:37,522    7000     INFO test_runner.py(156) - 预计并发线程数：1
+2021-07-06 10:36:37,524   12476     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-07-06 10:36:37,524   12476     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-07-06 10:36:37,524   12476     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-07-06 10:36:37,529   12476     INFO result.py(92) - 耗时： 0.0
+2021-07-06 10:36:37,545   12476     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-07-06 10:36:37,609   12476     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-07-06 10:36:37,641   12476     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-07-06 10:36:37,672   12476     INFO result.py(92) - 耗时： 0.09575033187866211
+2021-07-06 10:36:37,688   12476     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-07-06 10:36:37,688   12476     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-07-06 10:36:37,720   12476     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-07-06 10:36:37,736   12476     INFO result.py(92) - 耗时： 0.03191041946411133
+2021-07-06 10:36:37,752   12476     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-06 10:36:37,752   12476     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-07-06 10:36:37,752   12476     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-06 10:36:37,753   12476     INFO result.py(92) - 耗时： 0.0
+2021-07-06 10:36:37,753    7000     INFO test_runner.py(193) - 
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+
+2021-07-06 10:36:37,753    7000    ERROR test_runner.py(195) - 
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-07-06 10:36:37,754    7000     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.446125
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-07-06 10:39:06,146    2104     INFO test_runner.py(156) - 预计并发线程数：1
+2021-07-06 10:39:06,149    6688     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-07-06 10:39:06,149    6688     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-07-06 10:39:06,156    6688     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-07-06 10:39:06,156    6688     INFO result.py(92) - 耗时： 0.006980180740356445
+2021-07-06 10:39:06,157    6688     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-07-06 10:39:06,157    6688     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-07-06 10:39:06,157    6688     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-07-06 10:39:06,172    6688     INFO result.py(92) - 耗时： 0.0
+2021-07-06 10:39:06,172    6688     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-07-06 10:39:06,173    6688     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-07-06 10:39:06,173    6688     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-07-06 10:39:06,173    6688     INFO result.py(92) - 耗时： 0.0009984970092773438
+2021-07-06 10:39:06,188    6688     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-06 10:39:06,188    6688     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-07-06 10:39:06,188    6688     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-06 10:39:06,188    6688     INFO result.py(92) - 耗时： 0.0
+2021-07-06 10:39:06,189    2104     INFO test_runner.py(193) - 
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+
+2021-07-06 10:39:06,189    2104    ERROR test_runner.py(195) - 
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-07-06 10:39:06,190    2104     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.720515
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-07-06 10:39:09,482   11400     INFO test_runner.py(156) - 预计并发线程数：1
+2021-07-06 10:39:09,484    9316     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-07-06 10:39:09,489    9316     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-07-06 10:39:09,521    9316     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-07-06 10:39:09,553    9316     INFO result.py(92) - 耗时： 0.0369417667388916
+2021-07-06 10:39:09,585    9316     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-07-06 10:39:09,585    9316     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-07-06 10:39:09,586    9316     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-07-06 10:39:09,586    9316     INFO result.py(92) - 耗时： 0.0009877681732177734
+2021-07-06 10:39:09,602    9316     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-07-06 10:39:09,665    9316     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-07-06 10:39:09,681    9316     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-07-06 10:39:09,697    9316     INFO result.py(92) - 耗时： 0.07880353927612305
+2021-07-06 10:39:09,697    9316     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-06 10:39:09,697    9316     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-07-06 10:39:09,698    9316     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-06 10:39:09,698    9316     INFO result.py(92) - 耗时： 0.0
+2021-07-06 10:39:09,698   11400     INFO test_runner.py(193) - 
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+
+2021-07-06 10:39:09,698   11400    ERROR test_runner.py(195) - 
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-07-06 10:39:09,698   11400     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.325883
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-07-06 11:45:15,986   11684     INFO test_runner.py(156) - 预计并发线程数：1
+2021-07-06 11:45:15,987   15900     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-07-06 11:45:15,987   15900     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-07-06 11:45:15,987   15900     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-07-06 11:45:16,005   15900     INFO result.py(92) - 耗时： 0.0
+2021-07-06 11:45:16,020   15900     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-07-06 11:45:16,020   15900     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-07-06 11:45:16,020   15900     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-07-06 11:45:16,021   15900     INFO result.py(92) - 耗时： 0.0
+2021-07-06 11:45:16,021   15900     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-07-06 11:45:16,036   15900     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-07-06 11:45:16,068   15900     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-07-06 11:45:16,100   15900     INFO result.py(92) - 耗时： 0.0469052791595459
+2021-07-06 11:45:16,132   15900     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-06 11:45:16,132   15900     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-07-06 11:45:16,132   15900     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-06 11:45:16,132   15900     INFO result.py(92) - 耗时： 0.0
+2021-07-06 11:45:16,132   11684     INFO test_runner.py(193) - 
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-07-06 11:45:16,133   11684    ERROR test_runner.py(195) - 
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-07-06 11:45:16,133   11684     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.256804
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-07-06 11:47:23,659   14160     INFO test_runner.py(156) - 预计并发线程数：1
+2021-07-06 11:47:23,661    9004     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-07-06 11:47:23,661    9004     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-07-06 11:47:23,680    9004     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-07-06 11:47:23,696    9004     INFO result.py(92) - 耗时： 0.018982410430908203
+2021-07-06 11:47:23,712    9004     INFO result.py(69) - 开始测试： test_add_ex (test_demo_class.TestDemo)
+2021-07-06 11:47:23,744    9004     INFO result.py(156) - 测试执行通过： test_add_ex (test_demo_class.TestDemo)
+2021-07-06 11:47:23,776    9004     INFO result.py(90) - 测试结束： test_add_ex (test_demo_class.TestDemo)
+2021-07-06 11:47:23,792    9004     INFO result.py(92) - 耗时： 0.06382870674133301
+2021-07-06 11:47:23,824    9004     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-07-06 11:47:23,919    9004     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-07-06 11:47:23,935    9004     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-07-06 11:47:23,967    9004     INFO result.py(92) - 耗时： 0.11168336868286133
+2021-07-06 11:47:23,983    9004     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-07-06 11:47:23,983    9004     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-07-06 11:47:23,999    9004     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-07-06 11:47:23,999    9004     INFO result.py(92) - 耗时： 0.015952110290527344
+2021-07-06 11:47:24,015    9004     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-06 11:47:24,015    9004     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-07-06 11:47:24,016    9004     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-06 11:47:24,016    9004     INFO result.py(92) - 耗时： 0.0007343292236328125
+2021-07-06 11:47:24,016   14160     INFO test_runner.py(193) - 
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_add_ex (test_demo_class.TestDemo)
+Pass	test_calculate (test_demo_class.TestDemo)
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-07-06 11:47:24,016   14160    ERROR test_runner.py(195) - 
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-07-06 11:47:24,017   14160     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.462325
+共计执行用例数量：5
+执行成功用例数量：4
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-07-06 11:48:03,799    3272     INFO test_runner.py(156) - 预计并发线程数：1
+2021-07-06 11:48:03,801   16312     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-07-06 11:48:03,822   16312     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-07-06 11:48:03,822   16312     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-07-06 11:48:03,822   16312     INFO result.py(92) - 耗时： 0.0209810733795166
+2021-07-06 11:48:03,838   16312     INFO result.py(69) - 开始测试： test_add_ex (test_demo_class.TestDemo)
+2021-07-06 11:48:03,950   16312  WARNING result.py(190) - 测试未通过： test_add_ex (test_demo_class.TestDemo)
+Traceback (most recent call last):
+  File "E:\python\base_demo\demo\UnittestDemo\test_demo_class.py", line 50, in test_add_ex
+    self.assertNotEqual(1, 1, msg="error msg")
+AssertionError: 1 == 1 : error msg
+
+2021-07-06 11:48:03,950   16312     INFO result.py(90) - 测试结束： test_add_ex (test_demo_class.TestDemo)
+2021-07-06 11:48:03,950   16312     INFO result.py(92) - 耗时： 0.11170148849487305
+2021-07-06 11:48:03,966   16312     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-07-06 11:48:03,966   16312     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-07-06 11:48:03,966   16312     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-07-06 11:48:03,966   16312     INFO result.py(92) - 耗时： 0.0
+2021-07-06 11:48:03,967   16312     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-07-06 11:48:03,967   16312     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-07-06 11:48:03,981   16312     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-07-06 11:48:03,981   16312     INFO result.py(92) - 耗时： 0.013996601104736328
+2021-07-06 11:48:03,981   16312     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-06 11:48:03,981   16312     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-07-06 11:48:03,982   16312     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-06 11:48:03,982   16312     INFO result.py(92) - 耗时： 0.0010156631469726562
+2021-07-06 11:48:03,982    3272     INFO test_runner.py(193) - 
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-07-06 11:48:03,982    3272    ERROR test_runner.py(195) - 
+Fail	test_add_ex (test_demo_class.TestDemo)
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-07-06 11:48:03,983    3272     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.290379
+共计执行用例数量：5
+执行成功用例数量：3
+执行失败用例数量：1
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-07-06 11:49:43,975    1488     INFO test_runner.py(156) - 预计并发线程数：1
+2021-07-06 11:49:43,977   10432     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-07-06 11:49:43,977   10432     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-07-06 11:49:43,978   10432     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-07-06 11:49:44,014   10432     INFO result.py(92) - 耗时： 0.0010330677032470703
+2021-07-06 11:49:44,014   10432     INFO result.py(69) - 开始测试： test_add_ex (test_demo_class.TestDemo)
+2021-07-06 11:49:44,125   10432  WARNING result.py(190) - 测试未通过： test_add_ex (test_demo_class.TestDemo)
+Traceback (most recent call last):
+  File "E:\python\base_demo\demo\UnittestDemo\test_demo_class.py", line 50, in test_add_ex
+    self.assertNotEqual(1, 1, msg="error msg")
+AssertionError: 1 == 1 : error msg
+
+2021-07-06 11:49:44,157   10432     INFO result.py(90) - 测试结束： test_add_ex (test_demo_class.TestDemo)
+2021-07-06 11:49:44,189   10432     INFO result.py(92) - 耗时： 0.14362263679504395
+2021-07-06 11:49:44,221   10432     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-07-06 11:49:44,268   10432     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-07-06 11:49:44,300   10432     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-07-06 11:49:44,332   10432     INFO result.py(92) - 耗时： 0.07882118225097656
+2021-07-06 11:49:44,348   10432     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-07-06 11:49:44,348   10432     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-07-06 11:49:44,349   10432     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-07-06 11:49:44,380   10432     INFO result.py(92) - 耗时： 0.0009667873382568359
+2021-07-06 11:49:44,412   10432     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-06 11:49:44,412   10432     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-07-06 11:49:44,413   10432     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-06 11:49:44,413   10432     INFO result.py(92) - 耗时： 0.0009667873382568359
+2021-07-06 11:49:44,413    1488     INFO test_runner.py(193) - 
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-07-06 11:49:44,413    1488    ERROR test_runner.py(195) - 
+Fail	test_add_ex (test_demo_class.TestDemo)
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-07-06 11:49:44,414    1488     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.543503
+共计执行用例数量：5
+执行成功用例数量：3
+执行失败用例数量：1
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-07-06 11:53:58,241   12768     INFO test_runner.py(156) - 预计并发线程数：1
+2021-07-06 11:53:58,243   15348     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-07-06 11:53:58,243   15348     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-07-06 11:53:58,243   15348     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-07-06 11:53:58,243   15348     INFO result.py(92) - 耗时： 0.0
+2021-07-06 11:53:58,272   15348     INFO result.py(69) - 开始测试： test_add_ex (test_demo_class.TestDemo)
+2021-07-06 11:53:58,414   15348  WARNING result.py(190) - 测试未通过： test_add_ex (test_demo_class.TestDemo)
+Traceback (most recent call last):
+  File "E:\python\base_demo\demo\UnittestDemo\test_demo_class.py", line 56, in test_add_ex
+    self.assertNotEqual(1, 1, msg="error msg")
+AssertionError: 1 == 1 : error msg
+
+2021-07-06 11:53:58,446   15348     INFO result.py(90) - 测试结束： test_add_ex (test_demo_class.TestDemo)
+2021-07-06 11:53:58,462   15348     INFO result.py(92) - 耗时： 0.17453885078430176
+2021-07-06 11:53:58,494   15348     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-07-06 11:53:58,558   15348     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-07-06 11:53:58,558   15348     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-07-06 11:53:58,558   15348     INFO result.py(92) - 耗时： 0.06286406517028809
+2021-07-06 11:53:58,558   15348     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-07-06 11:53:58,559   15348     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-07-06 11:53:58,559   15348     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-07-06 11:53:58,590   15348     INFO result.py(92) - 耗时： 0.0009648799896240234
+2021-07-06 11:53:58,590   15348     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-06 11:53:58,590   15348     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-07-06 11:53:58,590   15348     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-06 11:53:58,591   15348     INFO result.py(92) - 耗时： 0.0
+2021-07-06 11:53:58,591   15348     INFO result.py(69) - 开始测试： test_my_function (test_demo_class.TestDemo)
+2021-07-06 11:53:58,591   15348     INFO result.py(156) - 测试执行通过： test_my_function (test_demo_class.TestDemo)
+2021-07-06 11:53:58,591   15348     INFO result.py(90) - 测试结束： test_my_function (test_demo_class.TestDemo)
+2021-07-06 11:53:58,591   15348     INFO result.py(92) - 耗时： 0.0
+2021-07-06 11:53:58,591   12768     INFO test_runner.py(193) - 
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+Pass	test_my_function (test_demo_class.TestDemo)
+
+2021-07-06 11:53:58,591   12768    ERROR test_runner.py(195) - 
+Fail	test_add_ex (test_demo_class.TestDemo)
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-07-06 11:53:58,592   12768     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.457227
+共计执行用例数量：6
+执行成功用例数量：4
+执行失败用例数量：1
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-07-20 09:44:49,425   14812     INFO test_runner.py(156) - 预计并发线程数：1
+2021-07-20 09:44:49,456   14000     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-07-20 09:44:49,456   14000     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-07-20 09:44:49,456   14000     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-07-20 09:44:49,456   14000     INFO result.py(92) - 耗时： 0.0
+2021-07-20 09:44:49,456   14000     INFO result.py(69) - 开始测试： test_add_ex (test_demo_class.TestDemo)
+2021-07-20 09:44:49,520   14000  WARNING result.py(190) - 测试未通过： test_add_ex (test_demo_class.TestDemo)
+Traceback (most recent call last):
+  File "E:\python\base_demo\demo\UnittestDemo\test_demo_class.py", line 56, in test_add_ex
+    self.assertNotEqual(1, 1, msg="error msg")
+AssertionError: 1 == 1 : error msg
+
+2021-07-20 09:44:49,520   14000     INFO result.py(90) - 测试结束： test_add_ex (test_demo_class.TestDemo)
+2021-07-20 09:44:49,536   14000     INFO result.py(92) - 耗时： 0.04814457893371582
+2021-07-20 09:44:49,536   14000     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-07-20 09:44:49,536   14000     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-07-20 09:44:49,536   14000     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-07-20 09:44:49,536   14000     INFO result.py(92) - 耗时： 0.0
+2021-07-20 09:44:49,536   14000     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-07-20 09:44:49,567   14000     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-07-20 09:44:49,583   14000     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-07-20 09:44:49,583   14000     INFO result.py(92) - 耗时： 0.04686331748962402
+2021-07-20 09:44:49,598   14000     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-20 09:44:49,598   14000     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-07-20 09:44:49,598   14000     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-20 09:44:49,598   14000     INFO result.py(92) - 耗时： 0.0
+2021-07-20 09:44:49,598   14000     INFO result.py(69) - 开始测试： test_my_function (test_demo_class.TestDemo)
+2021-07-20 09:44:49,598   14000     INFO result.py(156) - 测试执行通过： test_my_function (test_demo_class.TestDemo)
+2021-07-20 09:44:49,598   14000     INFO result.py(90) - 测试结束： test_my_function (test_demo_class.TestDemo)
+2021-07-20 09:44:49,598   14000     INFO result.py(92) - 耗时： 0.0
+2021-07-20 09:44:49,598   14812     INFO test_runner.py(193) - 
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+Pass	test_my_function (test_demo_class.TestDemo)
+
+2021-07-20 09:44:49,598   14812    ERROR test_runner.py(195) - 
+Fail	test_add_ex (test_demo_class.TestDemo)
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-07-20 09:44:49,598   14812     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.419748
+共计执行用例数量：6
+执行成功用例数量：4
+执行失败用例数量：1
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-07-20 09:47:47,580   14356     INFO test_runner.py(156) - 预计并发线程数：1
+2021-07-20 09:47:47,580   17360     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-07-20 09:47:47,580   17360     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-07-20 09:47:47,580   17360     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-07-20 09:47:47,580   17360     INFO result.py(92) - 耗时： 0.0
+2021-07-20 09:47:47,580   17360     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-07-20 09:47:47,580   17360     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-07-20 09:47:47,611   17360     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-07-20 09:47:47,627   17360     INFO result.py(92) - 耗时： 0.031232118606567383
+2021-07-20 09:47:47,627   17360     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-07-20 09:47:47,627   17360     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-07-20 09:47:47,627   17360     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-07-20 09:47:47,627   17360     INFO result.py(92) - 耗时： 0.0
+2021-07-20 09:47:47,627   17360     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-20 09:47:47,627   17360     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-07-20 09:47:47,627   17360     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-07-20 09:47:47,627   17360     INFO result.py(92) - 耗时： 0.0
+2021-07-20 09:47:47,627   14356     INFO test_runner.py(193) - 
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+
+2021-07-20 09:47:47,627   14356    ERROR test_runner.py(195) - 
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-07-20 09:47:47,627   14356     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.218700
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-08-09 15:04:22,840     568     INFO test_runner.py(156) - 预计并发线程数：1
+2021-08-09 15:04:22,869    7548     INFO result.py(69) - 开始测试： test_minus (test_demo_class.TestDemo)
+2021-08-09 15:04:22,870    7548     INFO result.py(156) - 测试执行通过： test_minus (test_demo_class.TestDemo)
+2021-08-09 15:04:22,870    7548     INFO result.py(90) - 测试结束： test_minus (test_demo_class.TestDemo)
+2021-08-09 15:04:22,884    7548     INFO result.py(92) - 耗时： 0.0
+2021-08-09 15:04:22,884    7548     INFO result.py(69) - 开始测试： test_add (test_demo_class.TestDemo)
+2021-08-09 15:04:22,884    7548     INFO result.py(156) - 测试执行通过： test_add (test_demo_class.TestDemo)
+2021-08-09 15:04:22,885    7548     INFO result.py(90) - 测试结束： test_add (test_demo_class.TestDemo)
+2021-08-09 15:04:22,885    7548     INFO result.py(92) - 耗时： 0.0007774829864501953
+2021-08-09 15:04:22,900    7548     INFO result.py(69) - 开始测试： test_calculate (test_demo_class.TestDemo)
+2021-08-09 15:04:22,900    7548     INFO result.py(156) - 测试执行通过： test_calculate (test_demo_class.TestDemo)
+2021-08-09 15:04:22,900    7548     INFO result.py(90) - 测试结束： test_calculate (test_demo_class.TestDemo)
+2021-08-09 15:04:22,901    7548     INFO result.py(92) - 耗时： 0.0
+2021-08-09 15:04:22,916    7548     INFO result.py(69) - 开始测试： test_minus_with_skip (test_demo_class.TestDemo)
+2021-08-09 15:04:22,916    7548     INFO result.py(142) - 跳过测试： test_minus_with_skip (test_demo_class.TestDemo)
+条件成立下才跳过
+2021-08-09 15:04:22,916    7548     INFO result.py(90) - 测试结束： test_minus_with_skip (test_demo_class.TestDemo)
+2021-08-09 15:04:22,916    7548     INFO result.py(92) - 耗时： 0.0
+2021-08-09 15:04:22,917     568     INFO test_runner.py(193) - 
+Pass	test_minus (test_demo_class.TestDemo)	Test method minus(a, b)
+Pass	test_add (test_demo_class.TestDemo)	Test method add(a, b)
+Pass	test_calculate (test_demo_class.TestDemo)
+
+2021-08-09 15:04:22,917     568    ERROR test_runner.py(195) - 
+Skip	test_minus_with_skip (test_demo_class.TestDemo)	Test method minus(a, b)
+
+2021-08-09 15:04:22,931     568     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.384377
+共计执行用例数量：4
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
