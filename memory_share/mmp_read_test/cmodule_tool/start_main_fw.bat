@@ -1,0 +1,2 @@
+Burn_Tool COM4 XG_BT_FW_241008_0745_Test_DFU.bin 0 MY_SHARE_0808
+pause

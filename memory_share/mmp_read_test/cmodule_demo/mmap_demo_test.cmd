@@ -1,0 +1,1 @@
+mmap_demo.exe my_define_data 1048576
